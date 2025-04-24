@@ -2,7 +2,6 @@ package com.example.patterns_banking.services;
 
 import com.example.patterns_banking.dtos.CustomerDTO;
 import com.example.patterns_banking.models.Customer;
-import com.example.patterns_banking.repositories.CustomerRepository;
 import com.example.patterns_banking.repositories.ICustomerRepository;
 import org.springframework.stereotype.Service;
 
@@ -23,4 +22,6 @@ public class CustomerService {
 
     return customerRepository.save(customer);
   }
+
+
 }
